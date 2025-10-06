@@ -1,0 +1,54 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #123a63;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #93c4bb;
+  padding: 15px 30px;
+}
+
+/* Navigation list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Navigation items */
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #000000;
+}
+
+/* Active or focus effect (optional) */
+.nav-links li a:active,
+.nav-links li a:focus {
+  color: #ffb400;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

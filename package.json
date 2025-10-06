@@ -1,6 +1,7 @@
 {
   "name": "nodeexpress",
   "version": "1.0.0",
+   "type": "module",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.1.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
